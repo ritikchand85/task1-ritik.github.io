@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto:wght@100&family=Urbanist:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Outfit:wght@300&family=Roboto:wght@100&family=Urbanist:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #12b652;
+    ;
+}
+
+html {
+   background-color: #bcc8d6;
+}
+
+body {
+    height: 100%;
+}
+
+.a {
+    margin: 2.1rem 1.8rem;
+    padding: 1rem 3rem;
+    background-color: white;
+    height: 93vh;
+}
+
+.first {
+    display: flex;
+    justify-content: start;
+}
+
+.second {
+    display: flex;
+    justify-content: start;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+#fname {
+    width: 50%;
+    margin-bottom: 1.2rem;
+    height: 8vh;
+    margin-right: 1.2rem;
+    background-color: rgba(117, 69, 249, 0.2);
+    padding-left: 2rem;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #3814bb;
+
+}
+
+#lname {
+    width: 50%;
+    margin: 1.5rem, 2rem;
+
+    height: 8vh;
+
+
+    height: 8vh;
+
+    background-color: rgba(117, 69, 249, 0.2);
+    padding-left: 2rem;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #3814bb;
+
+}
+
+#Email {
+    width: 50%;
+    margin-bottom: 1.2rem;
+    height: 8vh;
+    margin-right: 1.2rem;
+    background-color: rgba(117, 69, 249, 0.2);
+    padding-left: 2rem;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #3814bb;
+}
+
+#phone {
+    width: 50%;
+    margin: 1.5rem, 2rem;
+
+    height: 8vh;
+
+
+    height: 8vh;
+
+    background-color: rgba(117, 69, 249, 0.2);
+    padding-left: 2rem;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #3814bb;
+}
+
+#Adress {
+    height: 8vh;
+    margin-bottom: 1.2rem;
+    background-color: rgba(117, 69, 249, 0.4);
+    padding-left: 2rem;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #3814bb;
+}
+
+#message {
+    height: 8vh;
+    margin-bottom: 1.2rem;
+    background-color: rgba(117, 69, 249, 0.53);
+    padding-left: 2rem;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #3814bb;
+}
+
+button {
+    border: none;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #5226ef;
+    color: white;
+    border-radius: 18px;
+    height: 2.5rem;
+    width: 6rem;
+    align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+p.text {
+    height: 10vh;
+font-size: 11rem;
+padding-top: 1rem;
+padding-left: 0.3rem;
+color: rgba(117, 69, 249, 1);
+font-size: 2rem;
+font-family: 'Urbanist', sans-serif;
+font-size: 2rem;
+font-weight: bold;
+padding-bottom: 3rem;
+}
+
+.submitting {
+    font-size: 1.5rem;
+}
